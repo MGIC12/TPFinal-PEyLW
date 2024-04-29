@@ -1,32 +1,4 @@
-:root {
-  --color-primary: #333;
-  --color-secondary: #d3c500;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-html {
-  scroll-behavior: smooth; /* habilita el scroll suave en toda la página */
-}
-body::-webkit-scrollbar {
-  width: 8px; /* grosor de la barra de scroll */
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: var(
-    --color-secondary
-  ); /* color del "pulgar" de la barra de scroll */
-  border-radius: 5px;
-}
-
-body::-webkit-scrollbar-track {
-  background-color: var(
-    --color-primary
-  ); /* color del fondo de la barra de scroll */
-}
+/* TPFinal-PEyLW\css\stylesIndex.css */
 .navbar {
   position: fixed;
   top: 0;
