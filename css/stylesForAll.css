@@ -42,7 +42,37 @@ body::-webkit-scrollbar-track {
 .logo img {
   max-height: 40px; /* ajusta el tamaño del logo según sea necesario */
 }
-
+.menu {
+  margin-top: 100px;
+  text-align: center;
+}
+.list-item {
+  display: inline-block;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1rem;
+  position: relative;
+}
+.link::after {
+  content: "";
+  width: 0;
+  height: 4px;
+  background-color: #d3c500;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transition: all 0.5s;
+  will-change: width;
+}
+.link:hover::after {
+  width: 100%;
+  right: 0;
+}
 .navbar ul {
   list-style-type: none;
   margin: 0;
