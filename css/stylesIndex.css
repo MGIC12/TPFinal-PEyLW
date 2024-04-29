@@ -1,40 +1,4 @@
 /* TPFinal-PEyLW\css\stylesIndex.css */
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: var(--color-primary); /* color de fondo del navbar */
-  display: flex;
-  justify-content: space-between; /* distribuye los elementos en ambos extremos del navbar */
-  align-items: center;
-  padding: 10px 20px; /* espaciado interior del navbar */
-  z-index: 1000;
-}
-
-.logo img {
-  max-height: 40px; /* ajusta el tamaño del logo según sea necesario */
-}
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.navbar li {
-  margin-right: 20px; /* ajusta el espaciado entre elementos de la lista */
-}
-
-.navbar li:last-child {
-  margin-right: 0; /* elimina el margen derecho del último elemento de la lista */
-}
-
-.navbar li a {
-  color: white;
-  text-decoration: none;
-}
-
 .video-container {
   position: relative;
   width: 100%;
