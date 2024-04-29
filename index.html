@@ -4,14 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/stylesIndex.css" />
+    <link
+      rel="shortcut icon"
+      href="src/favicon metro.ico"
+      type="image/x-icon"
+    />
     <title>Videojuego - Inicio</title>
   </head>
   <body>
     <header>
-      <h1>TP Final</h1>
-      <nav class="nav">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="src/img/logo metro.png" alt="Logo" />
+        </div>
         <ul>
-          <img src="images/logo.png" alt="Logo" />
           <li><a href="index.html">Inicio</a></li>
           <li><a href="pages/characters.html">Personajes</a></li>
           <li><a href="pages/buynow.html">Comprar</a></li>
@@ -23,17 +29,19 @@
     </header>
     <main>
       <div class="video-container">
+        <div class="video-overlay">
+          <video autoplay loop playsinline muted preload="auto">
+            <source
+              src="https://vod-progressive.akamaized.net/exp=1714362877~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2747%2F22%2F563737485%2F2665697445.mp4~hmac=b0c3defc0574de0e7e5b7072f7fb51e853ed5f4b893fb819bc7d6cb4c3016615/vimeo-prod-skyfire-std-us/01/2747/22/563737485/2665697445.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
         <div class="contenido-superpuesto">
-          <h2>Nombre videojuego</h2>
+          <h2>Metro Exodus</h2>
           <p>Esto es un parrafo de prueba</p>
           <a href="#" target="_self"><button>Conoce más</button></a>
         </div>
-        <video id="video" autoplay loop playsinline muted preload="auto">
-          <source
-            src="https://vod-progressive.akamaized.net/exp=1714362877~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2747%2F22%2F563737485%2F2665697445.mp4~hmac=b0c3defc0574de0e7e5b7072f7fb51e853ed5f4b893fb819bc7d6cb4c3016615/vimeo-prod-skyfire-std-us/01/2747/22/563737485/2665697445.mp4"
-            type="video/mp4"
-          />
-        </video>
         <div class="fade-overlay"></div>
       </div>
       <section>
