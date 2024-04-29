@@ -1,6 +1,9 @@
 :root {
   --color-primary: #333;
   --color-secondary: #d3c500;
+  --color-tertiary: #000000;
+  --color-quaternary: #eeeeee;
+  --color-quinary: #29e100;
 }
 @font-face {
   font-family: "Russo One";
