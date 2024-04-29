@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333; /* color de fondo a tu elección */
+  color: white; /* color de texto a tu elección */
+  padding: 10px;
+  z-index: 1000;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav li {
+  float: right;
+}
+.video-container {
+  position: relative;
+}
+#video {
+  width: 100%;
+  height: auto;
+}
+.contenido-superpuesto {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  color: white;
+  width: 640px;
+  height: 360px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contenido-superpuesto h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.contenido-superpuesto p {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.contenido-superpuesto button {
+  background-color: #d3c500;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.contenido-superpuesto button:hover {
+  background-color: #000000;
+}
+.fade-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Altura de la zona de fade */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+}
