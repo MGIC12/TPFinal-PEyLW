@@ -43,6 +43,12 @@ body::-webkit-scrollbar-track {
     --color-primary
   ); /* color del fondo de la barra de scroll */
 }
+body {
+  background-image: url(../src/img/357.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -109,6 +115,15 @@ body::-webkit-scrollbar-track {
 .navbar li a {
   color: white;
   text-decoration: none;
+}
+
+footer {
+  background-color: var(--color-primary);
+  text-align: center;
+  padding: 10px;
+  color: var(--color-secondary);
+  font-family: "Russo One", Times, serif;
+  font-size: 1.1rem;
 }
 /* PARA ARRIBA */
 
