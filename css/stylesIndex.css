@@ -63,6 +63,78 @@
   color: var(--color-secondary);
 }
 
+.section-divider {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.section-divider-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mask-image: linear-gradient(to top, #000000 90%, transparent 100%);
+}
+
+.section-divider-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mask-image: linear-gradient(rgb(0, 0, 0) 95%, transparent);
+}
+
+.section-divider-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 640px;
+  max-width: 90%;
+  height: 360px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-divider-text h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.section-divider-text p {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.section-divider-text button {
+  background-color: var(--color-secondary);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.section-divider-text button:hover {
+  background-color: #000000;
+  color: var(--color-secondary);
+}
+
 .section-container {
   position: relative;
   width: 100%;
