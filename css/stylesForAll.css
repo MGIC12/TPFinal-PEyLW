@@ -132,6 +132,7 @@ body {
   width: 100%;
   border-top: 2px solid var(--color-secondary);
   padding: 35px 0 35px 0;
+  background-color: var(--color-tertiary);
 }
 
 .footer-logo-block {

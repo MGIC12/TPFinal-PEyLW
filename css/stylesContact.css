@@ -1,3 +1,9 @@
+body {
+  background-image: url(../src/img/MetroExodusWATERMARK.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .body-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -68,6 +74,7 @@ form {
 h2 {
   color: var(--color-secondary);
   font-size: 35px;
+  text-shadow: 0 0 20px var(--color-tertiary);
 }
 
 label {
