@@ -16,21 +16,24 @@ form.addEventListener("submit", (e) => {
     nombre.style.border = "2px solid red";
     alert("Introduce un nombre correcto");
     entrar = true;
+  } else {
+    nombre.style.border = "2px solid green";
   }
   if (!regexEmail.test(email.value)) {
     email.style.border = "2px solid red";
     alert("Introduce un email correcto");
     entrar = true;
+  } else {
+    email.style.border = "2px solid green";
   }
   if (message.value.length < 10) {
     message.style.border = "2px solid red";
     alert("El mensaje es demasiado corto");
     entrar = true;
+  } else {
+    message.style.border = "2px solid green";
   }
   if (!entrar) {
-    nombre.style.border = "2px solid green";
-    email.style.border = "2px solid green";
-    message.style.border = "2px solid green";
     alert("Formulario enviado, gracias por contactarte! :)");
     form.reset();
   }
