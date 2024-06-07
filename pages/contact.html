@@ -68,7 +68,7 @@
         <br />
         <form action="#" method="POST" id="form">
           <div class="input-group">
-            <label for="name">Nombre:</label>
+            <label for="name">Nombre* :</label>
             <input
               type="text"
               name="name"
@@ -77,16 +77,35 @@
               required
             />
             <br />
-            <label for="email">Email:</label>
+            <label for="last-name">Apellido* :</label>
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              placeholder="Apellido"
+              required
+            />
+            <br />
+            <label for="email">Email* :</label>
             <input
               type="email"
               name="email"
               id="email"
-              placeholder="Email"
+              placeholder="Ej: 0jZlJ@example.com"
               required
             />
             <br />
-            <label for="message">Mensaje:</label>
+            <label for="country">País* :</label>
+            <select name="country" id="country" required>
+              <option value="">Seleccionar</option>
+              <option value="argentina">Argentina</option>
+              <option value="chile">Chile</option>
+              <option value="colombia">Colombia</option>
+              <option value="ecuador">Ecuador</option>
+              <option value="peru">Perú</option>
+            </select>
+            <br />
+            <label for="message">Mensaje* :</label>
             <textarea
               name="message"
               id="message"
@@ -97,9 +116,11 @@
             ></textarea>
             <br />
             <div class="form-txt">
-              <a href="#">Política de privacidad</a>
-              <a href="#">Términos y Condiciones</a>
+              <u><a href="#">Política de privacidad</a></u>
+              <u><a href="#">Términos y Condiciones</a></u>
             </div>
+            <p>* Campos obligatorios</p>
+            <br />
             <input class="btn" type="submit" value="Enviar" />
           </div>
         </form>
