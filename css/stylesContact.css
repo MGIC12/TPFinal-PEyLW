@@ -130,6 +130,21 @@ textarea:focus {
   text-decoration: none;
 }
 
+#parrafo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  color: #ffffff;
+  text-shadow: 0 0 10px red;
+  font-size: 14px;
+  font-weight: 200;
+}
+
 .btn {
   font-size: 16px;
   color: var(--color-tertiary);

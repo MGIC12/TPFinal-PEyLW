@@ -69,13 +69,7 @@
         <form action="#" method="POST" id="form">
           <div class="input-group">
             <label for="name">Nombre* :</label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Nombre"
-              required
-            />
+            <input type="text" name="name" id="name" placeholder="Nombre" />
             <br />
             <label for="last-name">Apellido* :</label>
             <input
@@ -83,7 +77,6 @@
               name="last-name"
               id="last-name"
               placeholder="Apellido"
-              required
             />
             <br />
             <label for="email">Email* :</label>
@@ -92,11 +85,10 @@
               name="email"
               id="email"
               placeholder="Ej: 0jZlJ@example.com"
-              required
             />
             <br />
             <label for="country">País* :</label>
-            <select name="country" id="country" required>
+            <select name="country" id="country">
               <option value="">Seleccionar</option>
               <option value="argentina">Argentina</option>
               <option value="chile">Chile</option>
@@ -119,6 +111,7 @@
               <u><a href="#">Política de privacidad</a></u>
               <u><a href="#">Términos y Condiciones</a></u>
             </div>
+            <div id="parrafo"></div>
             <p>* Campos obligatorios</p>
             <br />
             <input class="btn" type="submit" value="Enviar" />
