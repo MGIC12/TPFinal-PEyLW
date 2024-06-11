@@ -17,6 +17,17 @@ form.addEventListener("submit", (e) => {
   let regexName = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
   let warnings = "";
   let entrar = false;
+
+  //Validación de todos los campos
+  if (
+    nombre.value === "" &&
+    apellido.value === "" &&
+    email.value === "" &&
+    message.value === ""
+  ) {
+    warnings += "Todos los campos son obligatorios <br>";
+    entrar = true;
+  }
   //Validación nombre
   if (
     nombre.value.length < 3 ||
