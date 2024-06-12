@@ -1,0 +1,94 @@
+.body-container {
+  background-color: var(--color-tertiary);
+  width: 100%;
+  height: 90vh;
+  padding: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  width: 1300px;
+  max-width: 100vw;
+  height: 700px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  width: max-content;
+  transition: 1.5s;
+}
+
+.list img {
+  width: 1300px;
+  max-width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
+
+.buttons {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  width: 50px;
+  height: 50px;
+  border-radius: 0%;
+  border: none;
+  background-color: var(--color-tertiary);
+  color: var(--color-secondary);
+  font-family: monospace;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.dots {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: #ffffff;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.dots li {
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border: 2px solid var(--color-secondary);
+  margin: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.dots li.active {
+  width: 30px;
+  background-color: var(--color-secondary);
+}
+
+.gallery {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+  background-color: var(--color-primary);
+}
+.gallery .gallery-filter .filter-item {
+  color: #ffffff;
+}
