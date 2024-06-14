@@ -117,9 +117,17 @@
   flex-wrap: wrap;
 }
 
-img {
+.row img {
   max-width: 100%;
   vertical-align: middle;
+  border-radius: 10px;
+}
+
+.row img:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.7s ease;
+  filter: brightness(1.2);
 }
 
 iframe {
