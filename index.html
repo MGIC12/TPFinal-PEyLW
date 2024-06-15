@@ -22,22 +22,28 @@
         </div>
         <ul class="menu">
           <li class="list-item">
-            <a href="index.html" class="link">Inicio</a>
+            <button class="translate" id="es">Español</button>
+            <button class="translate" id="en">English</button>
           </li>
           <li class="list-item">
-            <a href="pages/story.html" class="link">Historia</a>
+            <a href="index.html" class="link" key="home">Inicio</a>
           </li>
           <li class="list-item">
-            <a href="pages/characters.html" class="link">Personajes</a>
+            <a href="pages/story.html" class="link" key="story">Historia</a>
           </li>
           <li class="list-item">
-            <a href="pages/gallery.html" class="link">Galería</a>
+            <a href="pages/characters.html" class="link" key="characters"
+              >Personajes</a
+            >
           </li>
           <li class="list-item">
-            <a href="pages/contact.html" class="link">Contacto</a>
+            <a href="pages/gallery.html" class="link" key="gallery">Galería</a>
           </li>
           <li class="list-item">
-            <a href="pages/buynow.html" class="link">Comprar</a>
+            <a href="pages/contact.html" class="link" key="contact">Contacto</a>
+          </li>
+          <li class="list-item">
+            <a href="pages/buynow.html" class="link" key="buy">Comprar</a>
           </li>
         </ul>
       </nav>
@@ -53,13 +59,13 @@
           <h2>Metro Exodus</h2>
           <hr width="60%" align="center" />
           <br />
-          <p>
+          <p class="lang" key="description">
             Metro Exodus es un shooter argumental de primera persona de 4A Games
             que ofrece combates mortales y sigilo, así como exploración y
             supervivencia en un mundo envolvente y horripilante.
           </p>
           <a href="pages/story.html" target="_self"
-            ><button>Conoce más</button></a
+            ><button class="lang" key="knowmore">Conoce más</button></a
           >
         </div>
       </div>
@@ -71,10 +77,10 @@
           />
         </div>
         <div class="section-divider-text">
-          <h2>Personajes</h2>
+          <h2 class="lang" key="characters">Personajes</h2>
           <hr width="60%" align="center" />
           <br />
-          <p>
+          <p class="lang" key="description2">
             Metro Exodus se desliza a través de una historia épica llena de
             personajes inolvidables. Durante tu viaje por Rusia, congeniarás con
             tus compañeros de viaje y descubrirás nuevos aliados para la causa.
@@ -82,7 +88,9 @@
             campo de batalla...
           </p>
           <a href="pages/characters.html"
-            ><button>Conoce a los personajes</button></a
+            ><button class="lang" key="knowCharacters">
+              Conoce a los personajes
+            </button></a
           >
         </div>
       </div>
@@ -95,7 +103,9 @@
             />
           </div>
           <div class="section-button">
-            <a href="pages/buynow.html#compraForm"><button>Comprar</button></a>
+            <a href="pages/buynow.html#compraForm"
+              ><button class="lang" key="buy">Comprar</button></a
+            >
           </div>
         </div>
       </div>
@@ -122,6 +132,8 @@
         copyrights are property of their respective owners.
       </p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scriptMultilenguaje.js" charset="utf-8"></script>
     <script src="js/gotop.js"></script>
   </body>
 </html>
