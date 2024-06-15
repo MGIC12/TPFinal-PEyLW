@@ -107,6 +107,12 @@
   background-color: var(--color-secondary);
 }
 
+@media screen and (max-width: 768px) {
+  .slider {
+    width: 400px;
+  }
+}
+
 .container {
   max-width: 1170px;
   margin: auto;
