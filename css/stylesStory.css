@@ -19,3 +19,151 @@
   text-shadow: 0 0 4px var(--color-tertiary);
   filter: brightness(2);
 }
+
+.body-container {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid var(--color-secondary);
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.story-intro {
+  width: 60%;
+  height: 100%;
+  position: relative;
+  padding: 30px;
+  border: 1px dashed #ffffff;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  background-color: var(--color-tertiary);
+  box-shadow: 0 0 15px var(--color-secondary);
+}
+
+.story-intro p {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 0 3px var(--color-secondary);
+  line-height: 30px;
+}
+
+.story-section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 30px;
+  margin: 30px;
+  margin-bottom: 0;
+  background-image: url(../src/img/galleryPhotos/MetroExodus-Online6-WATERMARK.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.story1,
+.story2,
+.story3 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 30px;
+  margin: 0px;
+  margin-bottom: 30px;
+  background-color: var(--color-tertiary);
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  grid-template-areas:
+    "h2"
+    "img"
+    "p";
+  grid-column-gap: 50px;
+}
+
+.story1 h2,
+.story3 h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: left;
+  color: #ffffff;
+  text-shadow: 0 0 3px red;
+  line-height: 30px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.story3 h2 {
+  text-shadow: 0 0 3px orange;
+}
+
+.story1 p,
+.story3 p {
+  font-size: 19px;
+  font-weight: 100;
+  text-align: left;
+  color: #ffffff;
+  line-height: 30px;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.story1 img,
+.story3 img {
+  height: 350px;
+  width: 250px;
+  display: block;
+  grid-column: 2;
+  grid-row: 2;
+  border-radius: 5px;
+  box-shadow: 0 0 10px red;
+  margin: 20px;
+}
+
+.story3 img {
+  box-shadow: 0 0 10px orange;
+}
+
+.story2 h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: right;
+  color: #ffffff;
+  text-shadow: 0 0 3px var(--color-secondary);
+  line-height: 30px;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.story2 p {
+  font-size: 19px;
+  font-weight: 100;
+  text-align: right;
+  color: #ffffff;
+  line-height: 30px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.story2 img {
+  height: 350px;
+  width: 250px;
+  display: block;
+  grid-column: 1;
+  grid-row: 2;
+  border-radius: 5px;
+  box-shadow: 0 0 10px var(--color-secondary);
+  margin: 20px;
+}
