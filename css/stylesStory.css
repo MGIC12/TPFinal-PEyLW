@@ -67,6 +67,7 @@
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.8;
+  mask-image: linear-gradient(to top, #000000 98.8%, transparent 100%);
 }
 
 .story1,
