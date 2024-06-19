@@ -43,6 +43,7 @@
   position: relative;
   overflow: hidden;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--color-primary);
 }
 
 .box img {
@@ -88,9 +89,10 @@
 }
 
 span {
+  text-transform: uppercase;
   color: var(--color-secondary);
   font-weight: 100;
-  text-shadow: 0;
+  text-shadow: 0 0 2px red;
 }
 .boxLhover img {
   transform: scale(1.2);
