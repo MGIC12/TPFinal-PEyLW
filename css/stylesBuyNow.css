@@ -1,0 +1,108 @@
+body {
+  background-image: url(../src/img/restriction-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+.buynow-wrap {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.buynow-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  max-height: 800px;
+  background-color: rgb(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 50px 50px;
+  box-shadow: 0 0 20px var(--color-tertiary);
+}
+
+.buynow-col-a {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: center;
+}
+
+.buynow-col-a h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: var(--color-secondary);
+  text-shadow: 0 0 5px var(--color-tertiary);
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.buynow-col-a form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buynow-col-a label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: var(--color-secondary);
+  text-shadow: 0 0 5px var(--color-tertiary);
+  font-weight: 800;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+}
+
+.buynow-col-a select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: var(--color-quaternary) 1px solid;
+  background-color: var(--color-tertiary);
+  color: var(--color-quaternary);
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+  text-align: left;
+}
+
+.buynow-col-a option {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+}
+
+.buynow-col-a button {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: var(--color-secondary);
+  color: var(--color-tertiary);
+  font-weight: 500;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.buynow-col-a button:hover {
+  background-color: transparent;
+  border: var(--color-secondary) 1px solid;
+  color: var(--color-quaternary);
+}
+.buynow-col-b {
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
