@@ -65,6 +65,20 @@ body {
 .logo img {
   max-height: 40px; /* ajusta el tamaño del logo según sea necesario */
 }
+
+.flags {
+  width: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flags_items {
+  width: 30px;
+  display: block;
+  cursor: pointer;
+}
+
 .menu {
   margin-top: 100px;
   text-align: center;

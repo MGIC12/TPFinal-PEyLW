@@ -20,24 +20,68 @@
             ><img src="src/img/icons_symbols/logoMetro.png" alt="Logo"
           /></a>
         </div>
+        <div id="flags" class="flags">
+          <div class="flags_items" data-language="es">
+            <img src="../src/img/flags/es.svg" alt="español" />
+          </div>
+          <div class="flags_items" data-language="en">
+            <img src="../src/img/flags/us.svg" alt="english" />
+          </div>
+        </div>
         <ul class="menu">
           <li class="list-item">
-            <a href="index.html" class="link">Inicio</a>
+            <a
+              href="index.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbInicio"
+              >Inicio</a
+            >
           </li>
           <li class="list-item">
-            <a href="pages/story.html" class="link">Historia</a>
+            <a
+              href="pages/story.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbStory"
+              >Historia</a
+            >
           </li>
           <li class="list-item">
-            <a href="pages/characters.html" class="link">Personajes</a>
+            <a
+              href="pages/characters.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbCharacters"
+              >Personajes</a
+            >
           </li>
           <li class="list-item">
-            <a href="pages/gallery.html" class="link">Galería</a>
+            <a
+              href="pages/gallery.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbGallery"
+              >Galería</a
+            >
           </li>
           <li class="list-item">
-            <a href="pages/contact.html" class="link">Contacto</a>
+            <a
+              href="pages/contact.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbContact"
+              >Contacto</a
+            >
           </li>
           <li class="list-item">
-            <a href="pages/buynow.html" class="link">Comprar</a>
+            <a
+              href="pages/buynow.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbBuynow"
+              >Comprar</a
+            >
           </li>
         </ul>
       </nav>
@@ -53,13 +97,15 @@
           <h2>Metro Exodus</h2>
           <hr width="60%" align="center" />
           <br />
-          <p>
+          <p data-section="inicio" data-value="fpInicio">
             Metro Exodus es un shooter argumental de primera persona de 4A Games
             que ofrece combates mortales y sigilo, así como exploración y
             supervivencia en un mundo envolvente y horripilante.
           </p>
           <a href="pages/story.html" target="_self"
-            ><button>Conoce más</button></a
+            ><button data-section="inicio" data-value="btn-fpInicio">
+              Conoce más
+            </button></a
           >
         </div>
       </div>
@@ -71,10 +117,10 @@
           />
         </div>
         <div class="section-divider-text">
-          <h2>Personajes</h2>
+          <h2 data-section="inicio" data-value="sp-titleInicio">Personajes</h2>
           <hr width="60%" align="center" />
           <br />
-          <p>
+          <p data-section="inicio" data-value="spInicio">
             Metro Exodus se desliza a través de una historia épica llena de
             personajes inolvidables. Durante tu viaje por Rusia, congeniarás con
             tus compañeros de viaje y descubrirás nuevos aliados para la causa.
@@ -82,7 +128,9 @@
             campo de batalla...
           </p>
           <a href="pages/characters.html"
-            ><button>Conoce a los personajes</button></a
+            ><button data-section="inicio" data-value="btn-spInicio">
+              Conoce a los personajes
+            </button></a
           >
         </div>
       </div>
@@ -95,7 +143,11 @@
             />
           </div>
           <div class="section-button">
-            <a href="pages/buynow.html#compraForm"><button>Comprar</button></a>
+            <a href="pages/buynow.html#compraForm"
+              ><button data-section="inicio" data-value="btn-buynowInicio">
+                Comprar
+              </button></a
+            >
           </div>
         </div>
       </div>
@@ -123,5 +175,6 @@
       </p>
     </footer>
     <script src="js/gotop.js"></script>
+    <script src="js/langSelector.js"></script>
   </body>
 </html>

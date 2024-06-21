@@ -20,34 +20,78 @@
             ><img src="../src/img/icons_symbols/logoMetro.png" alt="Logo"
           /></a>
         </div>
+        <div id="flags" class="flags">
+          <div class="flags_items" data-language="es">
+            <img src="../src/img/flags/es.svg" alt="español" />
+          </div>
+          <div class="flags_items" data-language="en">
+            <img src="../src/img/flags/us.svg" alt="english" />
+          </div>
+        </div>
         <ul class="menu">
           <li class="list-item">
-            <a href="../index.html" class="link">Inicio</a>
+            <a
+              href="../index.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbInicio"
+              >Inicio</a
+            >
           </li>
           <li class="list-item">
-            <a href="story.html" class="link">Historia</a>
+            <a
+              href="story.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbStory"
+              >Historia</a
+            >
           </li>
           <li class="list-item">
-            <a href="characters.html" class="link">Personajes</a>
+            <a
+              href="characters.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbCharacters"
+              >Personajes</a
+            >
           </li>
           <li class="list-item">
-            <a href="gallery.html" class="link">Galería</a>
+            <a
+              href="gallery.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbGallery"
+              >Galería</a
+            >
           </li>
           <li class="list-item">
-            <a href="contact.html" class="link">Contacto</a>
+            <a
+              href="contact.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbContact"
+              >Contacto</a
+            >
           </li>
           <li class="list-item">
-            <a href="buynow.html" class="link">Comprar</a>
+            <a
+              href="buynow.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbBuynow"
+              >Comprar</a
+            >
           </li>
         </ul>
       </nav>
     </header>
     <div class="body-title">
-      <h1>Historia</h1>
+      <h1 data-section="story" data-value="title-story">Historia</h1>
     </div>
     <div class="body-container">
       <div class="story-intro">
-        <p>
+        <p data-section="story" data-value="fpStory">
           METRO es una serie de libros escritos por Dmitry Glukhovsky (la serie
           METRO 2033 y la serie METRO 2035). Inspirada en un mundo
           post-apocalíptico centrado en Rusia, donde el protagonista llamado
@@ -57,8 +101,10 @@
       </div>
       <section class="story-section">
         <div class="story1">
-          <h2>Metro 2033: El inicio</h2>
-          <p>
+          <h2 data-section="story" data-value="sp-titleStory">
+            Metro 2033: El inicio
+          </h2>
+          <p data-section="story" data-value="spStory">
             En el año 2013, el planeta experimentó un evento catastrófico que
             dejó una profunda marca. Diversos sobrevivientes buscaron refugio en
             las profundidades del subterráneo de la ciudad de Moscú...
@@ -78,7 +124,7 @@
         </div>
         <div class="story2">
           <h2>Metro: Last Light</h2>
-          <p>
+          <p data-section="story" data-value="tpStory">
             En el año 2034, debajo de las ruinas de una Moscú devastada por un
             apocalipsis, los escasos sobrevivientes de la raza humana se
             encuentran bajo el acecho de peligros mortales que provienen tanto
@@ -98,7 +144,9 @@
           />
         </div>
         <div class="story3">
-          <h2>La saga completa y remasterizada: Metro Redux</h2>
+          <h2 data-section="story" data-value="fop-titleStory">
+            La saga completa y remasterizada: Metro Redux
+          </h2>
           <p>
             Metro Redux constituye la colección doble definitiva, que engloba
             las versiones más recientes de Metro 2033 y Metro: Last Light, ambas
@@ -141,5 +189,6 @@
       </div>
     </div>
     <script src="../js/gotop.js"></script>
+    <script src="../js/langSelector.js"></script>
   </body>
 </html>

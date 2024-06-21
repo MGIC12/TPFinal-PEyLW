@@ -1,0 +1,34 @@
+{
+  "navbar": {
+    "nbInicio": "Home",
+    "nbStory": "Story",
+    "nbCharacters": "Characters",
+    "nbGallery": "Gallery",
+    "nbContact": "Contact",
+    "nbBuynow": "Buy now"
+  },
+  "inicio": {
+    "fpInicio": "Metro Exodus is an argumental first person shooter developed by 4A Games, the game sets you in a horrifying yet surrounding world where you'll have to engage in mortal and stealthy situations as well as exploring and surviving in it.",
+    "btn-fpInicio": "Know more",
+    "sp-titleInicio": "Characters",
+    "spInicio": "Metro Exodus glides through an epic story filled with unforgettable characters. During your trip within Russia you'll get along with your fellow passengers while meeting new allies interested in your cause. Along your journey you will face several sinister enemies in the battlefield...",
+    "btn-spInicio": "Meet the characters",
+    "btn-buynowInicio": "Buy it NOW"
+  },
+  "story": {
+    "title-story": "Story",
+    "fpStory": "METRO is a world-acclaimed novel series written by Dmitry Glukhovsky (METRO 2033, 2034 and 2035). Set in a post-apocalyptic Russia, where Artyom, the protagonist, sets out to different places with the sole purpose of discovering the truth about the situation in the hope of finding other survivors.",
+    "sp-titleStory": "METRO 2033: THE BEGGINING",
+    "spStory": "In 2013, the planet experienced a catastrophic event that left a never lasting wound. Some survivors found refuge in the Moscow underground metro... <br /><br />Now in the year 2033. You embody Artyom, who was born a few days before the tragedy but grew up in the bowels of Earth. A fatidical event evolves in a desperate mission within the center of the underground facility to alert humanity's final survivor of an imminent threat. All along your journey you'll explore the dark and forgotten passages beneath the city all the way to the arid deserts of the surface...",
+    "tpStory": "2034, under the ruins of a Moscow devastated by the apocalypse, the remain of the human race are fighting the threats from the outside as well as from the inside. <br /><br /> Instead of remaining in unity, the cities are always in the middle of conflicts, fighting over for the ultimate power, represented as a devastating weapon hidden in the military shelter of the D6. A civil war begins to form that could end up wiping out the last vestige of humanity from Earth. Controlling Artyom once more, filled with regret but motivated by hope, you hold the key for the survival of the human species. You are the last spark in the darkest of times...",
+    "fop-titleStory": "THE COMPLETE AND REMASTERED SAGA: METRO REDUX",
+    "fopStory": "Metro Redux constituye la colección doble definitiva, que engloba las versiones más recientes de Metro 2033 y Metro: Last Light, ambas meticulosamente renovadas utilizando la última y más avanzada versión del motor 4A. Este avance se traduce en una experiencia de juego a 60 fotogramas por segundo y con gráficos de punta. <br /> <br /> Sumérgete en dos de los más destacados juegos de disparos con enfoque narrativo de todos los tiempos en un único paquete; una epopeya que fusiona el emocionante 'survival horror', la exploración, el combate táctico y el sigilo."
+  },
+  "characters": {
+    "title-characters": "Personajes",
+    "fc-titleCharacters": "Artyom",
+    "fcCharacters": "<span>'NO NACIMOS PARA VIVIR EN LOS TÚNELES.'- Artyom</span> <br /> Artyom nació en Moscú y siempre ha vivido en el metro. <br />Está obsesionado con la idea de encontrar vida más allá del metro, así que suele salir a la aventura con un dispositivo de radio para intentar establecer comunicación con el mundo exterior.",
+    "sc-titleCharacters": "Anna",
+    "scCharacters": ""
+  }
+}
