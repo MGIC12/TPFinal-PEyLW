@@ -25,7 +25,8 @@ form.addEventListener("submit", (e) => {
     email.value === "" &&
     message.value === ""
   ) {
-    warnings += "Todos los campos son obligatorios <br>";
+    warnings +=
+      "Todos los campos son obligatorios <br> // All fields are required <br>";
     entrar = true;
   }
   //Validación nombre
@@ -34,16 +35,19 @@ form.addEventListener("submit", (e) => {
     nombre.value.length > 20 ||
     inputNombre.value.trim() === ""
   ) {
-    warnings += "El nombre es demasiado corto o demasiado grande <br>";
+    warnings +=
+      "El nombre es demasiado corto o demasiado grande <br> // The name is too short or too big <br>";
     nombre.style.border = "2px solid red";
     entrar = true;
   } else if (!regexName.test(nombre.value)) {
     nombre.style.border = "2px solid red";
-    warnings += "Introduce un nombre correcto <br>";
+    warnings +=
+      "Introduce un nombre correcto <br> // The name is not correct <br>";
     entrar = true;
   } else if (nombre.value !== nombre.value.trim()) {
     nombre.style.border = "2px solid red";
-    warnings += "El nombre no debe contener espacios al inicio o final <br>";
+    warnings +=
+      "El nombre no debe contener espacios al inicio o final <br> // The name must not contain spaces at the beginning or end <br>";
     entrar = true;
   } else {
     nombre.style.border = "2px solid green";
@@ -56,15 +60,18 @@ form.addEventListener("submit", (e) => {
     inputLastName.value.trim() === ""
   ) {
     apellido.style.border = "2px solid red";
-    warnings += "El apellido es demasiado corto o demasiado grande <br>";
+    warnings +=
+      "El apellido es demasiado corto o demasiado grande <br> // The last name is too short or too big <br>";
     entrar = true;
   } else if (!regexName.test(apellido.value)) {
     apellido.style.border = "2px solid red";
-    warnings += "Introduce un apellido correcto <br>";
+    warnings +=
+      "Introduce un apellido correcto <br> // The last name is not correct <br>";
     entrar = true;
   } else if (apellido.value !== apellido.value.trim()) {
     apellido.style.border = "2px solid red";
-    warnings += "El apellido no debe contener espacios al inicio o final <br>";
+    warnings +=
+      "El apellido no debe contener espacios al inicio o final <br> // The last name must not contain spaces at the beginning or end <br>";
     entrar = true;
   } else {
     apellido.style.border = "2px solid green";
@@ -73,11 +80,13 @@ form.addEventListener("submit", (e) => {
   //Validación email
   if (!regexEmail.test(email.value) || inputEmail.value.trim() === "") {
     email.style.border = "2px solid red";
-    warnings += "Introduce un email correcto <br>";
+    warnings +=
+      "Introduce un email correcto <br> // The email is not correct <br>";
     entrar = true;
   } else if (email.value !== email.value.trim()) {
     email.style.border = "2px solid red";
-    warnings += "El email no debe contener espacios al inicio o final <br>";
+    warnings +=
+      "El email no debe contener espacios al inicio o final <br> // The email must not contain spaces at the beginning or end <br>";
     entrar = true;
   } else {
     email.style.border = "2px solid green";
@@ -86,7 +95,8 @@ form.addEventListener("submit", (e) => {
   //Validación país
   if (country.value == "") {
     country.style.border = "2px solid red";
-    warnings += "Por favor, seleccione un pais correcto <br>";
+    warnings +=
+      "Por favor, seleccione un pais correcto <br> // Please select a country <br>";
     entrar = true;
   } else {
     country.style.border = "2px solid green";
@@ -95,15 +105,18 @@ form.addEventListener("submit", (e) => {
   //Validación mensaje
   if (message.value.length < 10 || inputMessage.value.trim() === "") {
     message.style.border = "2px solid red";
-    warnings += "El mensaje es demasiado corto <br>";
+    warnings +=
+      "El mensaje es demasiado corto <br> // The message is too short <br>";
     entrar = true;
   } else if (message.value !== message.value.trim()) {
     message.style.border = "2px solid red";
-    warnings += "El mensaje no debe contener espacios al inicio o final <br>";
+    warnings +=
+      "El mensaje no debe contener espacios al inicio o final <br> // The message must not contain spaces at the beginning or end <br>";
     entrar = true;
   } else if (message.value.length > 500) {
     message.style.border = "2px solid red";
-    warnings += "El mensaje es demasiado extenso <br>";
+    warnings +=
+      "El mensaje es demasiado extenso <br> // The message is too long <br>";
     entrar = true;
   } else {
     message.style.border = "2px solid green";
@@ -111,7 +124,9 @@ form.addEventListener("submit", (e) => {
 
   if (!entrar) {
     parrafo.innerHTML = "";
-    alert("Formulario enviado, gracias por contactarte! :)");
+    alert(
+      "Formulario enviado, gracias por contactarte! :) // Form submitted, thanks for contacting me! :)"
+    );
     form.reset();
   } else {
     parrafo.innerHTML = warnings;

@@ -20,30 +20,76 @@
             ><img src="../src/img/icons_symbols/logoMetro.png" alt="Logo"
           /></a>
         </div>
+        <div id="flags" class="flags">
+          <div class="flags_items" data-language="es">
+            <img src="../src/img/flags/es.svg" alt="español" />
+          </div>
+          <div class="flags_items" data-language="en">
+            <img src="../src/img/flags/us.svg" alt="english" />
+          </div>
+        </div>
         <ul class="menu">
           <li class="list-item">
-            <a href="../index.html" class="link">Inicio</a>
+            <a
+              href="../index.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbInicio"
+              >Inicio</a
+            >
           </li>
           <li class="list-item">
-            <a href="story.html" class="link">Historia</a>
+            <a
+              href="story.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbStory"
+              >Historia</a
+            >
           </li>
           <li class="list-item">
-            <a href="characters.html" class="link">Personajes</a>
+            <a
+              href="characters.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbCharacters"
+              >Personajes</a
+            >
           </li>
           <li class="list-item">
-            <a href="gallery.html" class="link">Galería</a>
+            <a
+              href="gallery.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbGallery"
+              >Galería</a
+            >
           </li>
           <li class="list-item">
-            <a href="contact.html" class="link">Contacto</a>
+            <a
+              href="contact.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbContact"
+              >Contacto</a
+            >
           </li>
           <li class="list-item">
-            <a href="buynow.html" class="link">Comprar</a>
+            <a
+              href="buynow.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbBuynow"
+              >Comprar</a
+            >
           </li>
         </ul>
       </nav>
     </header>
     <div class="body-title">
-      <h1>Personajes</h1>
+      <h1 data-section="characters" data-value="title-characters">
+        Personajes
+      </h1>
     </div>
     <div id="card-area">
       <div class="wrapper">
@@ -52,7 +98,7 @@
             <img src="../src/img/characters/artyom.jpg" alt="" />
             <div class="overlay">
               <h3><span>Artyom</span></h3>
-              <p>
+              <p data-section="characters" data-value="fcCharacters">
                 <span>"NO NACIMOS PARA VIVIR EN LOS TÚNELES."- Artyom</span>
                 <br />
                 Artyom nació en Moscú y siempre ha vivido en el metro.
@@ -67,7 +113,7 @@
             <img src="../src/img/characters/anna.jpg" alt="" />
             <div class="overlay">
               <h3><span>Anna</span></h3>
-              <p>
+              <p data-section="characters" data-value="scCharacters">
                 <span
                   >"QUIERO CREER QUE HAY UN MUNDO AHÍ FUERA, ARTYOM... QUIERO
                   SOÑAR."- Anna</span
@@ -84,7 +130,7 @@
             <img src="../src/img/characters/miller.jpg" alt="" />
             <div class="overlay">
               <h3><span>Miller</span></h3>
-              <p>
+              <p data-section="characters" data-value="tcCharacters">
                 <span>"SE HAN SACRIFICADO DEMASIADAS VIDAS..."- Miller</span>
                 <br />
                 El coronel Miller es la figura militar por excelencia; es
@@ -98,7 +144,7 @@
             <img src="../src/img/characters/stepan.PNG" alt="" />
             <div class="overlay">
               <h3><span>Stepan</span></h3>
-              <p>
+              <p data-section="characters" data-value="focCharacters">
                 <span
                   >"CORONEL... ¡NO PODEMOS DEJARLAS AQUÍ! ¡SE LAS COMERÁN
                   VIVAS!"- Stepan</span
@@ -115,7 +161,7 @@
             <img src="../src/img/characters/sam.PNG" alt="" />
             <div class="overlay">
               <h3><span>Sam</span></h3>
-              <p>
+              <p data-section="characters" data-value="fvcCharacters">
                 <span>"¡NO TE PREOCUPES, HOMBRE, TODO IRÁ BIEN!"- Sam</span>
                 <br />
                 Sam formaba parte de la embajada estadounidense en Moscú, y
@@ -130,7 +176,7 @@
             <img src="../src/img/characters/damir.PNG" alt="" />
             <div class="overlay">
               <h3><span>Damir</span></h3>
-              <p>
+              <p data-section="characters" data-value="sxcCharacters">
                 <span>"ESTO ES LO QUE TIENE QUE SER LA VIDA..."- Damir</span>
                 <br />
                 Damir nació en Kazajistán y se ha sentido fuera de lugar entre
@@ -144,8 +190,10 @@
           <div class="box">
             <img src="../src/img/characters/idiota.PNG" alt="" />
             <div class="overlay">
-              <h3><span>Idiota</span></h3>
-              <p>
+              <h3 data-section="characters" data-value="svcCharacters-title">
+                <span>Idiota</span>
+              </h3>
+              <p data-section="characters" data-value="svcCharacters">
                 <span>"CREO QUE EL DESTINO TE TRAJO AQUÍ..."- Idiota</span>
                 <br />
                 Idiota eligió su propio apodo, pero en realidad es una de las
@@ -159,7 +207,7 @@
             <img src="../src/img/characters/duke.PNG" alt="" />
             <div class="overlay">
               <h3><span>Duke</span></h3>
-              <p>
+              <p data-section="characters" data-value="ecCharacters">
                 <span>"¡POR FAVOR, DÉJEME HACERLO, CORONEL!"- Duke</span>
                 <br />
                 Duke es uno de los más jóvenes de la Aurora y acaba de alistarse
@@ -174,7 +222,7 @@
             <img src="../src/img/characters/alyosha.PNG" alt="" />
             <div class="overlay">
               <h3><span>Alyosha</span></h3>
-              <p>
+              <p data-section="characters" data-value="ntcCharacters">
                 <span>"¿QUIÉN SABE QUÉ AVENTURAS NOS ESPERAN?"- Alyosha</span>
                 <br />
                 Alyosha se unió a los espartanos después de pasar unos años en
@@ -211,5 +259,6 @@
       </div>
     </div>
     <script src="../js/gotop.js"></script>
+    <script src="../js/langSelector.js"></script>
   </body>
 </html>

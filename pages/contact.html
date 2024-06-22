@@ -20,24 +20,68 @@
             ><img src="../src/img/icons_symbols/logoMetro.png" alt="Logo"
           /></a>
         </div>
+        <div id="flags" class="flags">
+          <div class="flags_items" data-language="es">
+            <img src="../src/img/flags/es.svg" alt="español" />
+          </div>
+          <div class="flags_items" data-language="en">
+            <img src="../src/img/flags/us.svg" alt="english" />
+          </div>
+        </div>
         <ul class="menu">
           <li class="list-item">
-            <a href="../index.html" class="link">Inicio</a>
+            <a
+              href="../index.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbInicio"
+              >Inicio</a
+            >
           </li>
           <li class="list-item">
-            <a href="story.html" class="link">Historia</a>
+            <a
+              href="story.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbStory"
+              >Historia</a
+            >
           </li>
           <li class="list-item">
-            <a href="characters.html" class="link">Personajes</a>
+            <a
+              href="characters.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbCharacters"
+              >Personajes</a
+            >
           </li>
           <li class="list-item">
-            <a href="gallery.html" class="link">Galería</a>
+            <a
+              href="gallery.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbGallery"
+              >Galería</a
+            >
           </li>
           <li class="list-item">
-            <a href="contact.html" class="link">Contacto</a>
+            <a
+              href="contact.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbContact"
+              >Contacto</a
+            >
           </li>
           <li class="list-item">
-            <a href="buynow.html" class="link">Comprar</a>
+            <a
+              href="buynow.html"
+              class="link"
+              data-section="navbar"
+              data-value="nbBuynow"
+              >Comprar</a
+            >
           </li>
         </ul>
       </nav>
@@ -45,14 +89,16 @@
     <div class="body-container">
       <div class="body-content">
         <div class="text-container">
-          <h2>¿Cómo podemos ayudarte?</h2>
+          <h2 data-section="contact" data-value="text-contact-title">
+            ¿Cómo podemos ayudarte?
+          </h2>
           <hr width="60%" align="center" />
           <br />
-          <p>
+          <p data-section="contact" data-value="text-contact-one">
             Eres libre de contactarte con nosotros por cualquier problema, dudas
             o reportes de bugs.
           </p>
-          <p>
+          <p data-section="contact" data-value="text-contact-two">
             Además, si quieres formar parte de nuestro equipo de desarrollo,
             puedes mencionarlo en el mismo formulario, aclarando tu interés en
             nuestro trabajo. <br /><br />
@@ -68,56 +114,120 @@
         </div>
       </div>
       <div class="form-container">
-        <h2>Contacto</h2>
+        <h2 data-section="contact" data-value="title-contact">Contacto</h2>
         <br />
         <form action="#" method="POST" id="form">
           <div class="input-group">
-            <label for="name">Nombre* :</label>
-            <input type="text" name="name" id="name" placeholder="Nombre" />
+            <label for="name" data-section="contact" data-value="form-name"
+              >Nombre* :</label
+            >
+            <input type="text" name="name" id="name" />
             <br />
-            <label for="last-name">Apellido* :</label>
-            <input
-              type="text"
-              name="last-name"
-              id="last-name"
-              placeholder="Apellido"
-            />
+            <label
+              for="last-name"
+              data-section="contact"
+              data-value="form-lastname"
+              >Apellido* :</label
+            >
+            <input type="text" name="last-name" id="last-name" />
             <br />
             <label for="email">Email* :</label>
             <input
               type="email"
               name="email"
               id="email"
-              placeholder="Ej: 0jZlJ@example.com"
+              placeholder="0jZlJ@example.com"
             />
             <br />
-            <label for="country">País* :</label>
+            <label
+              for="country"
+              data-section="contact"
+              data-value="form-country"
+              >País* :</label
+            >
             <select name="country" id="country">
-              <option value="">Seleccionar</option>
-              <option value="argentina">Argentina</option>
-              <option value="chile">Chile</option>
-              <option value="colombia">Colombia</option>
-              <option value="ecuador">Ecuador</option>
-              <option value="peru">Perú</option>
+              <option
+                value=""
+                data-section="contact"
+                data-value="option-country"
+              >
+                Seleccionar
+              </option>
+              <option
+                value="argentina"
+                data-section="contact"
+                data-value="option-country-one"
+              >
+                Argentina
+              </option>
+              <option
+                value="chile"
+                data-section="contact"
+                data-value="option-country-two"
+              >
+                Chile
+              </option>
+              <option
+                value="colombia"
+                data-section="contact"
+                data-value="option-country-three"
+              >
+                Colombia
+              </option>
+              <option
+                value="ecuador"
+                data-section="contact"
+                data-value="option-country-four"
+              >
+                Ecuador
+              </option>
+              <option
+                value="peru"
+                data-section="contact"
+                data-value="option-country-five"
+              >
+                Perú
+              </option>
             </select>
             <br />
-            <label for="message">Mensaje* :</label>
+            <label
+              for="message"
+              data-section="contact"
+              data-value="form-message"
+              >Mensaje* :</label
+            >
             <textarea
               name="message"
               id="message"
               cols="30"
               rows="10"
-              placeholder="Escribe tu mensaje..."
             ></textarea>
             <br />
             <div class="form-txt">
-              <u><a href="#">Política de privacidad</a></u>
-              <u><a href="#">Términos y Condiciones</a></u>
+              <u
+                ><a href="#" data-section="contact" data-value="link-politics"
+                  >Política de privacidad</a
+                ></u
+              >
+              <u
+                ><a href="#" data-section="contact" data-value="link-terms"
+                  >Términos y Condiciones</a
+                ></u
+              >
             </div>
             <div id="parrafo"></div>
-            <p>* Campos obligatorios</p>
+            <p data-section="contact" data-value="required-fields">
+              * Campos obligatorios
+            </p>
             <br />
-            <input class="btn" type="submit" value="Enviar" />
+            <button
+              class="btn"
+              type="submit"
+              data-section="contact"
+              data-value="btn-submit"
+            >
+              Enviar
+            </button>
           </div>
         </form>
       </div>
@@ -147,5 +257,6 @@
     </div>
     <script src="../js/validacionForm.js"></script>
     <script src="../js/gotop.js"></script>
+    <script src="../js/langSelector.js"></script>
   </body>
 </html>

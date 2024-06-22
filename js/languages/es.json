@@ -26,9 +26,41 @@
   },
   "characters": {
     "title-characters": "Personajes",
-    "fc-titleCharacters": "Artyom",
     "fcCharacters": "<span>'NO NACIMOS PARA VIVIR EN LOS TÚNELES.'- Artyom</span> <br /> Artyom nació en Moscú y siempre ha vivido en el metro. <br />Está obsesionado con la idea de encontrar vida más allá del metro, así que suele salir a la aventura con un dispositivo de radio para intentar establecer comunicación con el mundo exterior.",
-    "sc-titleCharacters": "Anna",
-    "scCharacters": ""
+    "scCharacters": "<span>'QUIERO CREER QUE HAY UN MUNDO AHÍ FUERA, ARTYOM... QUIERO SOÑAR.'- Anna</span> <br /> Anna es la hija de Miller y la mujer de Artyom. <br /> Está considerada la mejor francotiradora de los comandos espartanos, así que puedes confiar en ella para que te cubra las espaldas.",
+    "tcCharacters": "<span>'SE HAN SACRIFICADO DEMASIADAS VIDAS...'- Miller</span><br /> El coronel Miller es la figura militar por excelencia; es racional, calculador y, a menudo, duro. El éxito en la misión es la mayor prioridad de Miller, pero se preocupa de verdad por los espartanos, a quienes, junto a Anna, considera su familia.",
+    "focCharacters": "<span>'CORONEL... ¡NO PODEMOS DEJARLAS AQUÍ! ¡SE LAS COMERÁN VIVAS!'- Stepan</span> <br /> Stepan ha prestado varios años de servicio en las filas de los comandos espartanos y forma parte del séquito personal de Miller. Está especializado en armas pesadas y es uno de los combatientes más fuertes de la Aurora.",
+    "fvcCharacters": "<span>'¡NO TE PREOCUPES, HOMBRE, TODO IRÁ BIEN!'- Sam</span><br /> Sam formaba parte de la embajada estadounidense en Moscú, y ahora es el guardaespaldas de Miller. <br />El resto del equipo lo adora, tanto por su optimismo infinito como por sus habilidades de combate. Sueña con visitar su tierra natal alguna vez.",
+    "sxcCharacters": "<span>'ESTO ES LO QUE TIENE QUE SER LA VIDA...'- Damir</span><br /> Damir nació en Kazajistán y se ha sentido fuera de lugar entre los espartanos. A pesar de eso, su lealtad hacia Miller y el grupo es inquebrantable. Se preocupa por sus compañeros y, como médico durante este viaje, se asegurará de que todos reciban la atención necesaria.",
+    "svcCharacters-title": "<span>Idiota</span>",
+    "svcCharacters": "<span>'CREO QUE EL DESTINO TE TRAJO AQUÍ...'- Idiota</span><br /> Idiota eligió su propio apodo, pero en realidad es una de las personas más inteligentes del grupo. Como el filósofo residente de la Aurora, lo encontrarás manifestando su falta de esperanza en la vida y las dificultades a las que se enfrenta el hombre.",
+    "ecCharacters": "<span>'¡POR FAVOR, DÉJEME HACERLO, CORONEL!'- Duke</span><br /> Duke es uno de los más jóvenes de la Aurora y acaba de alistarse en la Orden Espartana, por lo que está deseoso de participar en cualquier misión. <br />Suele ser el primero en ofrecerse voluntario a pesar del peligro, se esfuerza al máximo y no le importa correr riesgos.",
+    "ntcCharacters": "<span>'¿QUIÉN SABE QUÉ AVENTURAS NOS ESPERAN?'- Alyosha</span><br /> Alyosha se unió a los espartanos después de pasar unos años en la guardia de la Polis. Como especialista en exploración, es también experto supervivencia en las ruinas de Moscú. Está entusiasmado con el viaje en la Aurora y piensa que es la aventura perfecta para él."
+  },
+  "gallery": {
+    "title-gallery": "Galería",
+    "flt-one-gallery": "TODO",
+    "flt-two-gallery": "FONDOS",
+    "flt-three-gallery": "FOTOS"
+  },
+  "contact": {
+    "title-contact": "Contacto",
+    "text-contact-title": "¿Cómo podemos ayudarte?",
+    "text-contact-one": "Eres libre de contactarte con nosotros por cualquier problema, dudas o reportes de bugs.",
+    "text-contact-two": "Además, si quieres formar parte de nuestro equipo de desarrollo, puedes mencionarlo en el mismo formulario, aclarando tu interés en nuestro trabajo. <br /><br /> Estamos encantados de ayudarte.",
+    "form-name": "Nombre*",
+    "form-lastname": "Apellido*",
+    "form-country": "País*",
+    "option-country": "Seleccionar",
+    "option-country-one": "Argentina",
+    "option-country-two": "Chile",
+    "option-country-three": "Colombia",
+    "option-country-four": "Ecuador",
+    "option-country-five": "Perú",
+    "form-message": "Mensaje*",
+    "link-politics": "Política de privacidad",
+    "link-terms": "Términos y Condiciones",
+    "required-fields": "* Campos obligatorios",
+    "btn-submit": "Enviar"
   }
 }

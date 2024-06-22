@@ -22,13 +22,45 @@
     "spStory": "In 2013, the planet experienced a catastrophic event that left a never lasting wound. Some survivors found refuge in the Moscow underground metro... <br /><br />Now in the year 2033. You embody Artyom, who was born a few days before the tragedy but grew up in the bowels of Earth. A fatidical event evolves in a desperate mission within the center of the underground facility to alert humanity's final survivor of an imminent threat. All along your journey you'll explore the dark and forgotten passages beneath the city all the way to the arid deserts of the surface...",
     "tpStory": "2034, under the ruins of a Moscow devastated by the apocalypse, the remain of the human race are fighting the threats from the outside as well as from the inside. <br /><br /> Instead of remaining in unity, the cities are always in the middle of conflicts, fighting over for the ultimate power, represented as a devastating weapon hidden in the military shelter of the D6. A civil war begins to form that could end up wiping out the last vestige of humanity from Earth. Controlling Artyom once more, filled with regret but motivated by hope, you hold the key for the survival of the human species. You are the last spark in the darkest of times...",
     "fop-titleStory": "THE COMPLETE AND REMASTERED SAGA: METRO REDUX",
-    "fopStory": "Metro Redux constituye la colección doble definitiva, que engloba las versiones más recientes de Metro 2033 y Metro: Last Light, ambas meticulosamente renovadas utilizando la última y más avanzada versión del motor 4A. Este avance se traduce en una experiencia de juego a 60 fotogramas por segundo y con gráficos de punta. <br /> <br /> Sumérgete en dos de los más destacados juegos de disparos con enfoque narrativo de todos los tiempos en un único paquete; una epopeya que fusiona el emocionante 'survival horror', la exploración, el combate táctico y el sigilo."
+    "fopStory": "Metro Redux is the ultimate collection that contains the most recent versions of Metro 2033 and Metro: Last Light, both carefully remade using the latest version of the 4A engine. This upgrade means a game session running 60 frames per second while playing on the highest of quality. <br /><br /> Get on two of the greatest narrative-driven shooter games of all times in one package; a game that fuses together survival horror, with exploration, tactical combat and stealth."
   },
   "characters": {
-    "title-characters": "Personajes",
-    "fc-titleCharacters": "Artyom",
-    "fcCharacters": "<span>'NO NACIMOS PARA VIVIR EN LOS TÚNELES.'- Artyom</span> <br /> Artyom nació en Moscú y siempre ha vivido en el metro. <br />Está obsesionado con la idea de encontrar vida más allá del metro, así que suele salir a la aventura con un dispositivo de radio para intentar establecer comunicación con el mundo exterior.",
-    "sc-titleCharacters": "Anna",
-    "scCharacters": ""
+    "title-characters": "Characters",
+    "fcCharacters": "<span>'WE WERE NOT BORN TO LIVE IN TUNNELS.'- Artyom</span> <br /> Artyom was born in Moscow and has always lived in the metro. <br />He's obsessed with the idea of finding life beyond the subway, so he often goes on adventures with a radio device to try to establish communication with the outside world.",
+    "scCharacters": "<span>'I WANT TO BELIEVE THERE'S A WORLD OUT THERE, ARTYOM... I WANT TO DREAM.'- Anna</span> <br /> Anna is Miller's daughter and Artyom's wife. <br /> She's considered the best sniper among the Spartan commandos, so you can rely on her to cover your back.",
+    "tcCharacters": "<span>'TOO MANY LIVES HAVE BEEN SACRIFICED...'- Miller</span><br /> Colonel Miller is the quintessential military figure; he's rational, calculating, and often tough. Mission success is Miller's highest priority, but he genuinely cares about the Spartans, whom them and Anna consider family.",
+    "focCharacters": "<span>'COLONEL... WE CAN'T LEAVE THEM HERE! THEY'LL EAT THEM ALIVE!'- Stepan</span> <br /> Stepan has served in the ranks of the Spartan commandos for several years and is part of Miller's personal entourage. He specializes in heavy weapons and is one of the strongest fighters in the Aurora.",
+    "fvcCharacters": "<span>'DON'T WORRY, MAN, EVERYTHING WILL BE FINE!'- Sam</span><br /> Sam was part of the American embassy in Moscow, and is now Miller's bodyguard. <br />The rest of the team adores him, both for his endless optimism and his combat skills. He dreams of visiting his homeland one day.",
+    "sxcCharacters": "<span>'THIS IS WHAT LIFE HAS TO BE...'- Damir</span><br /> Damir was born in Kazakhstan and has long felt out of place among the Spartans. Despite that, his loyalty to Miller and the group is unwavering. He cares for his fellow soldiers and as a medic on this trip, he will make sure that everyone gets the care they need.",
+    "svcCharacters-title": "<span>Idiot</span>",
+    "svcCharacters": "<span>'I THINK DESTINY BROUGHT YOU HERE...'- Idiot</span><br /> Idiot chose his own nickname, but he's actually one of the smartest people in the group. As the resident philosopher of the Aurora, you'll find him voicing his lack of hope in life and the hardships that man faces.",
+    "ecCharacters": "<span>'PLEASE LET ME DO IT, COLONEL!'- Duke</span><br /> Duke is one of the youngest members of the Aurora and has just enlisted in the Spartan Order, so he's eager to participate in any mission. <br />He's usually the first to volunteer despite the danger, he tries his best and doesn't mind taking risks.",
+    "ntcCharacters": "<span>'WHO KNOWS WHAT ADVENTURES AWAIT US?'- Alyosha</span><br /> Alyosha joined the Spartans after spending a few years in the Polis guard. As a scouting specialist, he's also an expert in survival in the ruins of Moscow. He's excited about the journey on the Aurora and thinks it's the perfect adventure for him."
+  },
+  "gallery": {
+    "title-gallery": "Gallery",
+    "flt-one-gallery": "ALL",
+    "flt-two-gallery": "BACKGROUNDS",
+    "flt-three-gallery": "PHOTOS"
+  },
+  "contact": {
+    "title-contact": "Contact",
+    "text-contact-title": "How can we help you?",
+    "text-contact-one": "Feel free to contact us for any issues, questions or bug reports.",
+    "text-contact-two": "Also, if you want to be part of our development team, you can mention it in the same form, clarifying your interest in our work. <br /><br /> We are happy to help you.",
+    "form-name": "Name*",
+    "form-lastname": "Last name*",
+    "form-country": "Country*",
+    "option-country": "Select",
+    "option-country-one": "Argentina",
+    "option-country-two": "Chile",
+    "option-country-three": "Colombia",
+    "option-country-four": "Ecuador",
+    "option-country-five": "Peru",
+    "form-message": "Message*",
+    "link-politics": "Privacy policy",
+    "link-terms": "Terms and Conditions",
+    "required-fields": "* Required fields",
+    "btn-submit": "Submit"
   }
 }
