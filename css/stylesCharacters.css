@@ -52,6 +52,7 @@
   border-radius: 10px;
   display: block;
   transition: transform 0.5s;
+  filter: saturate(140%) brightness(110%);
 }
 
 .overlay {

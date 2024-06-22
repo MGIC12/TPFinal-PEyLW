@@ -16,6 +16,7 @@
   width: 100%;
   height: 100%;
   mask-image: linear-gradient(rgb(0, 0, 0) 95%, transparent);
+  filter: contrast(150%) brightness(80%);
 }
 .contenido-superpuesto {
   position: absolute;
@@ -41,14 +42,25 @@
   margin-top: 0;
   font-size: 36px;
   margin-bottom: 10px;
+  color: var(--color-secondary);
+  text-shadow: 0px 0px 2px var(--color-secondary);
+  filter: saturate(1.5);
+}
+.contenido-superpuesto hr {
+  width: 60%;
+  margin-bottom: 15px;
+  border-color: var(--color-secondary);
+  border-style: solid;
+  box-shadow: 0px 0px 10px var(--color-secondary);
 }
 .contenido-superpuesto p {
   text-align: center;
   margin: 0;
   margin-bottom: 20px;
-  font-weight: lighter;
+  font-weight: 100;
   font-size: 18px;
   line-height: 1.5;
+  text-shadow: 0px 0px 10px var(--color-tertiary);
 }
 .contenido-superpuesto button {
   background-color: var(--color-secondary);
@@ -85,6 +97,7 @@
   height: 100%;
   object-fit: cover;
   mask-image: linear-gradient(rgb(0, 0, 0) 95%, transparent);
+  filter: contrast(115%);
 }
 
 .section-divider-text {
@@ -112,6 +125,17 @@
   margin-top: 0;
   font-size: 36px;
   margin-bottom: 10px;
+  color: var(--color-secondary);
+  text-shadow: 0px 0px 2px var(--color-secondary);
+  filter: saturate(1.5);
+}
+
+.section-divider-text hr {
+  width: 60%;
+  margin-bottom: 15px;
+  border-color: var(--color-secondary);
+  border-style: solid;
+  box-shadow: 0px 0px 10px var(--color-secondary);
 }
 .section-divider-text p {
   text-align: center;
@@ -120,6 +144,7 @@
   font-weight: lighter;
   font-size: 18px;
   line-height: 1.5;
+  text-shadow: 0px 0px 10px var(--color-tertiary);
 }
 
 .section-divider-text button {
@@ -162,6 +187,7 @@
   mask-image: linear-gradient(to top, #000000 90%, transparent 100%);
   max-width: 100%;
   height: auto;
+  filter: contrast(120%);
 }
 
 .section-button {

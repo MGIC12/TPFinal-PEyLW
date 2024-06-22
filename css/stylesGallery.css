@@ -5,7 +5,7 @@
   background-image: url(../src/img/ZeTwoColonies.jpeg);
   background-size: cover;
   background-position: center;
-  filter: opacity(0.8);
+  filter: opacity(0.8) saturate(140%);
 }
 
 .body-title h1 {
@@ -16,7 +16,7 @@
   text-transform: uppercase;
   font-size: 50px;
   font-weight: 500;
-  text-shadow: 0 0 4px var(--color-tertiary);
+  text-shadow: 0 0 10px var(--color-tertiary);
   filter: brightness(2);
 }
 
@@ -55,6 +55,7 @@
   max-width: 100vw;
   height: 100%;
   object-fit: cover;
+  filter: saturate(150%) brightness(110%);
 }
 
 .buttons {
@@ -127,18 +128,19 @@
   max-width: 100%;
   vertical-align: middle;
   border-radius: 10px;
+  filter: saturate(140%) brightness(110%);
 }
 
 .row img:hover {
   cursor: pointer;
   transform: scale(1.03);
   transition: all 0.7s ease;
-  filter: brightness(1.2);
 }
 
 iframe {
   max-width: 100%;
   vertical-align: middle;
+  filter: brightness(110%);
 }
 
 .gallery {

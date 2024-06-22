@@ -59,7 +59,8 @@ body {
   align-items: center;
   padding: 10px 20px; /* espaciado interior del navbar */
   z-index: 1000;
-  box-shadow: #000000 0 0 10px;
+  box-shadow: #000000 0 0 20px;
+  filter: brightness(80%);
 }
 
 .logo img {
@@ -77,6 +78,7 @@ body {
   width: 30px;
   display: block;
   cursor: pointer;
+  filter: contrast(115%) saturate(1.5);
 }
 
 .menu {
@@ -95,6 +97,7 @@ body {
   text-transform: uppercase;
   font-size: 1.1rem;
   position: relative;
+  text-shadow: 0 0 10px var(--color-tertiary);
 }
 .link::after {
   content: "";
