@@ -27,6 +27,14 @@ body {
   box-shadow: 0 0 20px var(--color-tertiary);
 }
 
+.text-container hr {
+  width: 60%;
+  margin-bottom: 15px;
+  border-color: var(--color-secondary);
+  border-style: solid;
+  box-shadow: 0px 0px 10px var(--color-secondary);
+}
+
 .text-container p {
   width: 500px;
   text-align: center;
@@ -34,6 +42,7 @@ body {
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 15px;
+  text-shadow: 0 0 5px var(--color-tertiary);
 }
 
 .img-container {
