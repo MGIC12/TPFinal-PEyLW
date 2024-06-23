@@ -1,12 +1,4 @@
 {
-  "title": {
-    "titleIndex": "Metro Exodus Inicio",
-    "titleStory": "Metro Exodus Historia",
-    "titleCharacters": "Metro Exodus Personajes",
-    "titleGallery": "Metro Exodus Galería",
-    "titleContact": "Metro Exodus Contacto",
-    "titleBuynow": "Metro Exodus Comprar"
-  },
   "navbar": {
     "nbInicio": "Inicio",
     "nbStory": "Historia",
