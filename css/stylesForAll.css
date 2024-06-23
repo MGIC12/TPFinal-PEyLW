@@ -48,17 +48,18 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-.navbar {
-  position: fixed;
+header {
+  position: sticky;
   top: 0;
+  z-index: 1000;
+}
+.navbar {
   width: 100%;
   background-color: var(--color-primary); /* color de fondo del navbar */
   display: flex;
   justify-content: space-between; /* distribuye los elementos en ambos extremos del navbar */
   align-items: center;
   padding: 10px 20px; /* espaciado interior del navbar */
-  z-index: 1000;
   box-shadow: #000000 0 0 20px;
   filter: brightness(80%);
 }
