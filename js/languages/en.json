@@ -1,4 +1,12 @@
 {
+  "title": {
+    "titleIndex": "Metro Exodus | Home",
+    "titleStory": "Metro Exodus | Story",
+    "titleCharacters": "Metro Exodus | Characters",
+    "titleGallery": "Metro Exodus | Gallery",
+    "titleContact": "Metro Exodus | Contact",
+    "titleBuynow": "Metro Exodus | Buy now"
+  },
   "navbar": {
     "nbInicio": "Home",
     "nbStory": "Story",
