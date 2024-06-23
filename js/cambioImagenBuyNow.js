@@ -9,7 +9,7 @@ function cambioImagen() {
       '<img src="../src/img/game_covers/MetroExodus-PCEnhancedEdition.jpeg" />';
   } else if (edition.value == "3") {
     image.innerHTML =
-      '<img src="../src/img/game_covers/MetroExodusGoldEdition.png';
+      '<img src="../src/img/game_covers/MetroExodusGoldEdition.png" />';
   } else {
     image.innerHTML = '<img src="../src/img/icons_symbols/logoMetro.png" />';
   }
