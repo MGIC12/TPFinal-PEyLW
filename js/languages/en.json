@@ -63,5 +63,14 @@
     "link-terms": "Terms and Conditions",
     "required-fields": "* Required fields",
     "btn-submit": "Submit"
+  },
+  "buynow": {
+    "title-buynow": "Buy the game",
+    "label1-buynow": "Select the edition",
+    "opt0-buynow": "Select Edition",
+    "opt1-buynow": "Standard Edition (Physical)",
+    "opt2-buynow": "Standard Edition (Digital)",
+    "label2-buynow": "Select the platform",
+    "btn-buynow": "BUY IT NOW"
   }
 }

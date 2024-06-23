@@ -89,30 +89,53 @@
     <div class="buynow-wrap">
       <div class="buynow-grid">
         <div class="buynow-col-a">
-          <h2>Compra el juego</h2>
-          <form action="#" method="POST" id="myForm">
-            <label for="edition">Selecciona una edición</label>
-            <select name="edition" id="edition">
-              <option value="edition-1">Complete Edition</option>
-              <option value="edition-2">Edición 2</option>
-              <option value="edition-3">Edición 3</option>
+          <h2 data-section="buynow" data-value="title-buynow">
+            Compra el juego
+          </h2>
+          <form name="myForm">
+            <label
+              for="edition"
+              data-section="buynow"
+              data-value="label1-buynow"
+              >Selecciona una edición</label
+            >
+            <select
+              name="edition"
+              id="edition"
+              onchange="cambiaEdition(), cambioImagen()"
+            >
+              <option value="0" data-section="buynow" data-value="opt0-buynow">
+                Select Edition
+              </option>
+              <option value="1" data-section="buynow" data-value="opt1-buynow">
+                Standard Edition (Physical)
+              </option>
+              <option value="2" data-section="buynow" data-value="opt2-buynow">
+                Standard Edition (Digital)
+              </option>
+              <option value="3">Gold Edition</option>
             </select>
-            <label for="platform">Selecciona la plataforma</label>
-            <select name="platform" id="platform">
-              <option value="platform-1">PC</option>
-              <option value="platform-2">Playstation 4</option>
-              <option value="platform-3">XBOX</option>
+            <label
+              for="platform"
+              data-section="buynow"
+              data-value="label2-buynow"
+              >Selecciona la plataforma</label
+            >
+            <select name="platform">
+              <option value="-">-</option>
             </select>
-            <label for="store">Tienda</label>
-            <select name="store" id="store">
-              <option value="store-1">Tienda 1</option>
-              <option value="store-2">Tienda 2</option>
-              <option value="store-3">Tienda 3</option>
-            </select>
-            <button type="submit">Comprar</button>
+            <button
+              type="button"
+              id="submitButton"
+              data-section="buynow"
+              data-value="btn-buynow"
+              onclick="redirectToPage()"
+            >
+              COMPRAR
+            </button>
           </form>
         </div>
-        <div class="buynow-col-b">
+        <div class="buynow-col-b" id="buynow-col-b">
           <img src="../src/img/icons_symbols/logoMetro.png" alt="" />
         </div>
       </div>
@@ -140,7 +163,8 @@
       </p>
     </footer>
     <script src="../js/gotop.js"></script>
-    <script src="../js/formBuyNow.js"></script>
+    <script src="../js/formBuyNowEdition.js"></script>
+    <script src="../js/cambioImagenBuyNow.js"></script>
     <script src="../js/langSelector.js"></script>
   </body>
 </html>
