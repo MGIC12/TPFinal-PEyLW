@@ -72,5 +72,15 @@
     "opt2-buynow": "Standard Edition (Digital)",
     "label2-buynow": "Select the platform",
     "btn-buynow": "BUY IT NOW"
+  },
+  "footer": {
+    "about-footer": "About",
+    "cp-footer": "© 2020 Koch Media GmbH and published by Deep Silver. Developed by 4A Games®. 4A Games® is a registered trademark, and 4A Games Limited and their respective logo are trademarks of 4A Games Limited. Metro Exodus is inspired by the internationally best-selling novels METRO 2033 and METRO 2035 by Dmitry Glukhovsky. All other trademarks, logos and copyrights are property of their respective owners.",
+    "link1": "Home",
+    "link2": "Story",
+    "link3": "Characters",
+    "link4": "Gallery",
+    "link5": "Contact",
+    "link6": "Buy now"
   }
 }
