@@ -2,29 +2,39 @@ let opt1 = new Array("-", "PlayStation 4", "XBOX");
 let opt2 = new Array("-", "PC", "PlayStation 4", "PlayStation 5", "XBOX");
 let opt3 = new Array("-", "PC", "PlayStation 4", "PlayStation 5", "XBOX");
 
+// Funcion para cambiar las plataformas
 function cambiaEdition() {
+  // Obtengo el valor de la edicion
   let edition;
   edition =
     document.myForm.edition[document.myForm.edition.selectedIndex].value;
 
+  // Obtengo las plataformas
   if (edition != 0) {
+    // Evalua el valor de la edicion
     opts = eval("opt" + edition);
+    // Cuenta el numero de elementos
     num_opt = opts.length;
     document.myForm.platform.length = num_opt;
 
+    // Carga las plataformas en el select correspondiente
     for (i = 0; i < num_opt; i++) {
+      // Carga el valor y el texto
       document.myForm.platform.options[i].value = opts[i];
       document.myForm.platform.options[i].text = opts[i];
     }
   } else {
+    // Carga el valor y el texto
     document.myForm.platform.length = 1;
     document.myForm.platform.options[0].value = "-";
     document.myForm.platform.options[0].text = "-";
   }
 
+  // Selecciona la primera opcion por defecto
   document.myForm.platform.options[0].selected = true;
 }
 
+// Funcion para redireccionar a la pagina segun la plataforma
 function redirectToPage() {
   let selectedOption = document.myForm.platform.value;
   let edition = document.myForm.edition.value;
